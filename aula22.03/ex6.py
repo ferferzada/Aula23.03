@@ -1,6 +1,5 @@
 def preco_final(preco,desconto):
-    desconto = desconto / 100
-    preco_final = preco * (1-desconto)
+    preco_final = preco * (1-desconto/100)
     return print(f"preço final do produto é {preco_final}")
 
 if __name__ == "__main__":
