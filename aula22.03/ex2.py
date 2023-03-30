@@ -1,8 +1,16 @@
 def calculo(x):
     calculo = x*x + (x*2)-4
-    return print(f"Calculo da equação é {calculo:.2f}")
+    print(f"Calculo da equação é {calculo:.2f}")
 
+if __name__ == "__main__":
+    x = None
 
-if __name__ == "__main__":    
-    x = float(input("Diga o valor de x: "))
+    while not isinstance(x, float):
+        try:
+            x = input("Diga o valor de x: ")
+            x = float(x)
+        except ValueError:
+            print("Entrada inválida. Digite um número.")
+
     calculo(x)
+    
