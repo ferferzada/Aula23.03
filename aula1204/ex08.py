@@ -1,6 +1,6 @@
-clientesiso = 80 #int(input("Digite a quantidade de clientes com pendencias"))
-clientesPar = 30 #int(input("Clientes com parcelas em dia: "))
-clientesAtr = 40 #int(input("Cliente com atraso"))
+clientesiso = int(input("Digite a quantidade de clientes com pendencias"))
+clientesPar = int(input("Clientes com parcelas em dia: "))
+clientesAtr = int(input("Cliente com atraso"))
 
 somaClientes = clientesAtr + clientesiso + clientesPar
 print(somaClientes)

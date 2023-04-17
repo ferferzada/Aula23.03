@@ -1,7 +1,7 @@
 
 
-contaPagas = 880#int(input("digite o valor que pagou: "))
-conta = 135 #int(input("valor da conta: "))
+contaPagas = int(input("digite o valor que pagou: "))
+conta = int(input("valor da conta: "))
 troco = contaPagas- conta
 print(f"o troco deu {troco}")
 trocoCom100= int(troco / 100)
