@@ -13,5 +13,4 @@ print(f"numero de notas de 10 são {(trocoCom10)}")
 troco = int(troco-(trocoCom10*10))
 
 print(f"numero de notas de 1 são {(troco)}")
-
-
+print(x)
