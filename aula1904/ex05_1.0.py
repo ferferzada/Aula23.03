@@ -6,7 +6,7 @@ def mensagemPar(x):
     print(f"o {x} par, ele é o menor numeros entre os 3")
 
 def mensagemImpar(x):
-    print(f"o {x} é ímpar, ele é o menor numeros entre os 3")
+     print(f"o {x} é ímpar, ele é o menor numeros entre os 3")
 
 if num1 < num2 and num1 < num3:
     if num1 % 2 == 0:
