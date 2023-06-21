@@ -1,0 +1,3 @@
+from pizza import *
+
+menu()
