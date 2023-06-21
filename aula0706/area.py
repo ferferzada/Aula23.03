@@ -1,4 +1,4 @@
-from function.inform import *
+from importacao.inform import *
 def areaQuadrado(largura:float)->float:
     return largura ** 2
 
