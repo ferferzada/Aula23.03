@@ -27,7 +27,7 @@ def decidir_tamanho(x:str)->str:
           "tamanho gigante?\n")
     while True:
         try:
-            t = input("Qual tamanho?")
+            t = input("Qual tamanho? ")
             tamanho = (t.lower()).strip()
             if tamanho == "grande":
                 custo = x * 0.2
@@ -51,3 +51,5 @@ def pizza_gourmet():
 def pizza_premium():
     x = 30.00
     decidir_tamanho(x)
+
+

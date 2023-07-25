@@ -1,3 +1,3 @@
-from pizza import *
+from pizza import menu
 
 menu()

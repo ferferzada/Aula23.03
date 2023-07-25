@@ -1,4 +1,4 @@
-from function.inform import informInt,informFloat,informString
+from importacao.inform import informInt,
 
 def somar_sequencia(n:int) ->int:
     soma= 0
